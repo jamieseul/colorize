@@ -1,0 +1,107 @@
+/* .HomeColor {
+  text-align: center;
+} */
+
+/* Cells that can be interacted with */
+.table-drag-select td.cell-enabled {
+}
+
+.ant-btn.ant-btn-primary {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+
+.ant-btn.ant-btn-primary:hover { 
+  text-shadow: 0 0 5px #EB509F, 0 0 10px #EB509F, 0 0 20px #EB509F, 0 0 30px #EB509F, 0 0 40px #EB509F;;
+}
+
+
+.ant-confirm-info .ant-confirm-body > .anticon{
+  color: black
+}
+
+
+
+
+.table-drag-select {
+  border-collapse: separate;
+  border-spacing: 2px;
+  color: black;
+  font-size: 0px;
+  cursor: cell;
+  padding: 0 !important;
+}
+
+/* Cells that cannot be interacted with */
+/* .table-drag-select td.cell-disabled {
+  /* Put yer css here */
+  /* background-color: red;
+} */
+
+/* Cells that have been selected */
+.table-drag-select td.cell-selected {
+  -webkit-box-shadow:inset 0px 0px 0px 3px black;
+  -moz-box-shadow:inset 0px 0px 0px 3px black;
+  box-shadow:inset 0px 0px 0px 3px black;
+}
+
+.table-drag-select td.cell-selected .heart {
+  /* background: rgba(255,255,255,0.7); */
+  /* border-left: 1.5rem solid transparent;
+  border-right: 1.5rem solid blue;
+  border-bottom: 1.5rem solid transparent;
+  height: 0;
+  width: 0;*/
+  /* position: absolute; */
+  /*right: 0px;
+  z-index: 2; */
+  /* border-width: 0 3rem 3rem 0;
+  border-style:solid;
+  border-color: transparent white transparent transparent;
+  position: absolute;
+  top: 0;
+  right: 0; */
+}
+
+/* Cells that are in the process of being selected */
+.table-drag-select td.cell-being-selected {
+  /* -webkit-box-shadow:inset 0px 0px 0px 3px #505050;
+  -moz-box-shadow:inset 0px 0px 0px 3px #505050;
+  box-shadow:inset 0px 0px 0px 3px #505050; */
+}
+.table-drag-select td.cell-being-selected .heart {
+  background: rgba(0,0,0,0.3);
+  width: 100%;
+  height: 100%;
+}
+
+/* Cells in first row */
+.table-drag-select tr:first-child td {
+  /* Remove empty space at top of table */
+  border-top: 0;
+}
+
+/* Cells in first column */
+.table-drag-select td:first-child {
+  /* Consume less whitespace */
+}
+
+@media only screen and (max-width: 768px) {
+  .table-drag-select {
+    margin: 0 5px;
+  }
+  .table-drag-select tr {
+    display: block;
+    float: left;
+   }
+  .table-drag-select th, .table-drag-select td {
+    margin: 1px;
+    display: block;
+    width: 10vw !important;
+    height: 4.5vh !important;
+  }
+  .table-drag-select td.cell-selected {
+    box-shadow:inset 0px 0px 0px 2px black;
+  }
+}

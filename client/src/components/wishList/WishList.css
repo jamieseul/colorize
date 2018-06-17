@@ -1,0 +1,25 @@
+.ant-btn.ant-btn-danger {
+    color: white;
+    background-color: black;
+    border-color: black;
+  }
+  .ant-btn.ant-btn-danger:hover{
+    text-shadow: 0 0 5px #EB509F, 0 0 10px #EB509F, 0 0 20px #EB509F, 0 0 30px #EB509F, 0 0 40px #EB509F;;
+  }
+  .ant-btn {
+    color: black;
+    background-color: white;
+    border-color: black;
+  }
+  .ant-btn:hover{
+    color: white;
+    border-color: black;
+    text-shadow: 0 0 5px #EB509F, 0 0 10px #EB509F, 0 0 20px #EB509F, 0 0 30px #EB509F, 0 0 40px #EB509F;;
+  }
+
+  .ant-confirm-warning .ant-confirm-body > .anticon, .ant-confirm-confirm .ant-confirm-body > .anticon {
+    color: black;
+  }
+
+
+  

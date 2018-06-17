@@ -1,0 +1,6 @@
+.ant-confirm-error .ant-confirm-body > .anticon{
+    color: black
+  }
+.ant-confirm-success .ant-confirm-body > .anticon{
+    color: black;
+}
